@@ -1,0 +1,9 @@
+13:31:51 **** Incremental Build of configuration Nios II for project BitstreamLoader ****
+make all 
+Info: Building ../BitstreamLoader_bsp/
+make --no-print-directory -C ../BitstreamLoader_bsp/
+[BSP build complete]
+[BitstreamLoader build complete]
+
+13:31:51 Build Finished (took 112ms)
+

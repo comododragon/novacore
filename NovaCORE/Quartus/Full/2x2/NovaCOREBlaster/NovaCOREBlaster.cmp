@@ -1,0 +1,13 @@
+	component NovaCOREBlaster is
+		port (
+			c_bus_export       : out std_logic_vector(27 downto 0);        -- export
+			c_clk_export       : out std_logic;                            -- export
+			c_dimension_export : out std_logic_vector(3 downto 0);         -- export
+			c_dimswitch_export : out std_logic;                            -- export
+			c_uid_export       : out std_logic_vector(3 downto 0);         -- export
+			clk_clk            : in  std_logic                     := 'X'; -- clk
+			mode_export        : out std_logic;                            -- export
+			reset_reset_n      : in  std_logic                     := 'X'  -- reset_n
+		);
+	end component NovaCOREBlaster;
+

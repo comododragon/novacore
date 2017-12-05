@@ -1,0 +1,22 @@
+Fitter Status : Successful - Fri Mar 31 13:12:37 2017
+Quartus II 64-Bit Version : 14.1.0 Build 186 12/03/2014 SJ Full Version
+Revision Name : NovaCORE
+Top-level Entity Name : TOP
+Family : Stratix IV
+Device : EP4SGX230KF40C2ES
+Timing Models : Final
+Logic utilization : 2 %
+    Combinational ALUTs : 1,991 / 182,400 ( 1 % )
+    Memory ALUTs : 16 / 91,200 ( < 1 % )
+    Dedicated logic registers : 1,717 / 182,400 ( < 1 % )
+Total registers : 1717
+Total pins : 20 / 888 ( 2 % )
+Total virtual pins : 0
+Total block memory bits : 2,632,704 / 14,625,792 ( 18 % )
+DSP block 18-bit elements : 0 / 1,288 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 24 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 36 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 24 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 36 ( 0 % )
+Total PLLs : 0 / 8 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

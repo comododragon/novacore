@@ -1,0 +1,146 @@
+Flow report for NovaCORE
+Fri Mar 31 13:13:36 2017
+Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++-----------------------------------+---------------------------------------------+
+; Flow Status                       ; Successful - Fri Mar 31 13:13:36 2017       ;
+; Quartus II 64-Bit Version         ; 14.1.0 Build 186 12/03/2014 SJ Full Version ;
+; Revision Name                     ; NovaCORE                                    ;
+; Top-level Entity Name             ; TOP                                         ;
+; Family                            ; Stratix IV                                  ;
+; Device                            ; EP4SGX230KF40C2ES                           ;
+; Timing Models                     ; Final                                       ;
+; Logic utilization                 ; 2 %                                         ;
+;     Combinational ALUTs           ; 1,991 / 182,400 ( 1 % )                     ;
+;     Memory ALUTs                  ; 16 / 91,200 ( < 1 % )                       ;
+;     Dedicated logic registers     ; 1,717 / 182,400 ( < 1 % )                   ;
+; Total registers                   ; 1717                                        ;
+; Total pins                        ; 20 / 888 ( 2 % )                            ;
+; Total virtual pins                ; 0                                           ;
+; Total block memory bits           ; 2,632,704 / 14,625,792 ( 18 % )             ;
+; DSP block 18-bit elements         ; 0 / 1,288 ( 0 % )                           ;
+; Total GXB Receiver Channel PCS    ; 0 / 24 ( 0 % )                              ;
+; Total GXB Receiver Channel PMA    ; 0 / 36 ( 0 % )                              ;
+; Total GXB Transmitter Channel PCS ; 0 / 24 ( 0 % )                              ;
+; Total GXB Transmitter Channel PMA ; 0 / 36 ( 0 % )                              ;
+; Total PLLs                        ; 0 / 8 ( 0 % )                               ;
+; Total DLLs                        ; 0 / 4 ( 0 % )                               ;
++-----------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/31/2017 13:10:31 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; NovaCORE            ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                           ;
++-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+----------------+
+; Assignment Name                     ; Value                                                             ; Default Value ; Entity Name     ; Section Id     ;
++-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 0.149097663101953                                                 ; --            ; --              ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                              ; --            ; --              ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                            ; <None>        ; --              ; --             ;
+; ENABLE_SIGNALTAP                    ; Off                                                               ; --            ; --              ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                ; --            ; --              ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                 ; --            ; --              ; --             ;
+; MISC_FILE                           ; NovaCOREBlaster/synthesis/../NovaCOREBlaster.cmp                  ; --            ; --              ; --             ;
+; MISC_FILE                           ; NovaCOREBlaster/synthesis/../../NovaCOREBlaster.qsys              ; --            ; --              ; --             ;
+; PARTITION_COLOR                     ; 16764057                                                          ; --            ; TOP             ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                             ; --            ; TOP             ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                            ; --            ; TOP             ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                               ; --            ; --              ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                             ; --            ; --              ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                      ; --            ; --              ; --             ;
+; SLD_FILE                            ; NovaCOREBlaster/synthesis/NovaCOREBlaster.regmap                  ; --            ; --              ; --             ;
+; SLD_FILE                            ; NovaCOREBlaster/synthesis/NovaCOREBlaster.debuginfo               ; --            ; --              ; --             ;
+; SLD_INFO                            ; QSYS_NAME NovaCOREBlaster HAS_SOPCINFO 1 GENERATION_ID 1490976523 ; --            ; NovaCOREBlaster ; --             ;
+; SOPCINFO_FILE                       ; NovaCOREBlaster/synthesis/../../NovaCOREBlaster.sopcinfo          ; --            ; --              ; --             ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                ; --            ; --              ; --             ;
+; TOP_LEVEL_ENTITY                    ; TOP                                                               ; NovaCORE      ; --              ; --             ;
+; USE_SIGNALTAP_FILE                  ; output_files/iotap.stp                                            ; --            ; --              ; --             ;
++-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:53     ; 1.0                     ; 1156 MB             ; 00:01:23                           ;
+; Fitter                    ; 00:01:05     ; 1.2                     ; 1604 MB             ; 00:01:01                           ;
+; Assembler                 ; 00:00:12     ; 1.0                     ; 1074 MB             ; 00:00:12                           ;
+; TimeQuest Timing Analyzer ; 00:00:09     ; 1.0                     ; 1078 MB             ; 00:00:08                           ;
+; EDA Netlist Writer        ; 00:00:06     ; 1.0                     ; 1182 MB             ; 00:00:05                           ;
+; Total                     ; 00:02:25     ; --                      ; --                  ; 00:02:49                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; daenerys         ; Arch Linux ; Arch Linux ; x86_64         ;
+; Fitter                    ; daenerys         ; Arch Linux ; Arch Linux ; x86_64         ;
+; Assembler                 ; daenerys         ; Arch Linux ; Arch Linux ; x86_64         ;
+; TimeQuest Timing Analyzer ; daenerys         ; Arch Linux ; Arch Linux ; x86_64         ;
+; EDA Netlist Writer        ; daenerys         ; Arch Linux ; Arch Linux ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off NovaCORE -c NovaCORE
+quartus_fit --read_settings_files=off --write_settings_files=off NovaCORE -c NovaCORE
+quartus_asm --read_settings_files=off --write_settings_files=off NovaCORE -c NovaCORE
+quartus_sta NovaCORE -c NovaCORE
+quartus_eda --read_settings_files=off --write_settings_files=off NovaCORE -c NovaCORE
+
+
+

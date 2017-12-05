@@ -1,0 +1,39 @@
+13:27:42 **** Build of configuration Nios II for project BitstreamLoader ****
+make all 
+Info: Building ../BitstreamLoader_bsp/
+make --no-print-directory -C ../BitstreamLoader_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../BitstreamLoader_bsp//HAL/inc -I../BitstreamLoader_bsp/ -I../BitstreamLoader_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/main.o main.c
+Info: Linking BitstreamLoader.elf
+nios2-elf-g++  -T'../BitstreamLoader_bsp//linker.x' -msys-crt0='../BitstreamLoader_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../BitstreamLoader_bsp/   -Wl,-Map=BitstreamLoader.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o BitstreamLoader.elf obj/default/main.o -lm 
+nios2-elf-insert BitstreamLoader.elf --thread_model hal --cpu_name nios2_gen2 --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name NovaCOREBlaster --quartus_project_dir "/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2_WORKINGGGGGGGG" --jdi ../..//output_files/NovaCORE.jdi --sopcinfo /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2_WORKINGGGGGGGG/software/BitstreamLoader_bsp/../../NovaCOREBlaster.sopcinfo
+Info: (BitstreamLoader.elf) 70 KBytes program size (code + initialized data).
+Info:                       178 KBytes free for stack + heap.
+Info: Creating BitstreamLoader.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source BitstreamLoader.elf >BitstreamLoader.objdump
+[BitstreamLoader build complete]
+13:27:48 **** Build of configuration Nios II for project BitstreamLoader ****
+make all 
+Info: Building ../BitstreamLoader_bsp/
+make --no-print-directory -C ../BitstreamLoader_bsp/
+[BSP build complete]
+[BitstreamLoader build complete]
+13:28:01 **** Incremental Build of configuration Nios II for project BitstreamLoader ****
+make all 
+Info: Building ../BitstreamLoader_bsp/
+make --no-print-directory -C ../BitstreamLoader_bsp/
+[BSP build complete]
+[BitstreamLoader build complete]
+13:31:50 **** Build of configuration Nios II for project BitstreamLoader ****
+make all 
+Info: Building ../BitstreamLoader_bsp/
+make --no-print-directory -C ../BitstreamLoader_bsp/
+[BSP build complete]
+[BitstreamLoader build complete]
+13:31:51 **** Incremental Build of configuration Nios II for project BitstreamLoader ****
+make all 
+Info: Building ../BitstreamLoader_bsp/
+make --no-print-directory -C ../BitstreamLoader_bsp/
+[BSP build complete]
+[BitstreamLoader build complete]

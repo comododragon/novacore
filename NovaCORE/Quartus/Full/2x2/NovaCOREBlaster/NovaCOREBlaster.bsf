@@ -1,0 +1,126 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 352 384)
+	(text "NovaCOREBlaster" (rect 123 -1 202 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 368 20 380)(font "Arial" ))
+	(port
+		(pt 0 272)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 261 46 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 144 272)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 341 82 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 144 352)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "c_bus_export[27..0]" (rect 0 0 80 12)(font "Arial" (font_size 8)))
+		(text "c_bus_export[27..0]" (rect 4 61 118 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 144 72)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "c_clk_export" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "c_clk_export" (rect 4 101 76 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 144 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "c_dimension_export[3..0]" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "c_dimension_export[3..0]" (rect 4 141 148 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 144 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "c_dimswitch_export" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "c_dimswitch_export" (rect 4 181 112 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 144 192)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "c_uid_export[3..0]" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "c_uid_export[3..0]" (rect 4 221 112 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 144 232)(line_width 3))
+	)
+	(port
+		(pt 0 312)
+		(output)
+		(text "mode_export" (rect 0 0 53 12)(font "Arial" (font_size 8)))
+		(text "mode_export" (rect 4 301 70 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 144 312)(line_width 1))
+	)
+	(drawing
+		(text "c_bus" (rect 110 43 250 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 149 67 334 144)(font "Arial" (color 0 0 0)))
+		(text "c_clk" (rect 115 83 260 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 149 107 334 224)(font "Arial" (color 0 0 0)))
+		(text "c_dimension" (rect 72 123 210 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 149 147 334 304)(font "Arial" (color 0 0 0)))
+		(text "c_dimswitch" (rect 73 163 212 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 149 187 334 384)(font "Arial" (color 0 0 0)))
+		(text "c_uid" (rect 114 203 258 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 149 227 334 464)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 129 243 276 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 149 267 316 544)(font "Arial" (color 0 0 0)))
+		(text "mode" (rect 113 283 250 579)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 149 307 334 624)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 115 323 260 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 149 347 340 704)(font "Arial" (color 0 0 0)))
+		(text " NovaCOREBlaster " (rect 267 368 636 746)(font "Arial" ))
+		(line (pt 144 32)(pt 208 32)(line_width 1))
+		(line (pt 208 32)(pt 208 368)(line_width 1))
+		(line (pt 144 368)(pt 208 368)(line_width 1))
+		(line (pt 144 32)(pt 144 368)(line_width 1))
+		(line (pt 145 52)(pt 145 76)(line_width 1))
+		(line (pt 146 52)(pt 146 76)(line_width 1))
+		(line (pt 145 92)(pt 145 116)(line_width 1))
+		(line (pt 146 92)(pt 146 116)(line_width 1))
+		(line (pt 145 132)(pt 145 156)(line_width 1))
+		(line (pt 146 132)(pt 146 156)(line_width 1))
+		(line (pt 145 172)(pt 145 196)(line_width 1))
+		(line (pt 146 172)(pt 146 196)(line_width 1))
+		(line (pt 145 212)(pt 145 236)(line_width 1))
+		(line (pt 146 212)(pt 146 236)(line_width 1))
+		(line (pt 145 252)(pt 145 276)(line_width 1))
+		(line (pt 146 252)(pt 146 276)(line_width 1))
+		(line (pt 145 292)(pt 145 316)(line_width 1))
+		(line (pt 146 292)(pt 146 316)(line_width 1))
+		(line (pt 145 332)(pt 145 356)(line_width 1))
+		(line (pt 146 332)(pt 146 356)(line_width 1))
+		(line (pt 0 0)(pt 352 0)(line_width 1))
+		(line (pt 352 0)(pt 352 384)(line_width 1))
+		(line (pt 0 384)(pt 352 384)(line_width 1))
+		(line (pt 0 0)(pt 0 384)(line_width 1))
+	)
+)

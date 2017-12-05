@@ -1,0 +1,687 @@
+!SESSION 2016-05-12 10:25:56.793 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/perina/altera/14.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/perina/altera/14.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2016-05-12 10:26:32.400
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-05-12 10:26:32.400
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2016-05-12 10:26:33.448
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-05-12 10:26:33.448
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-12 10:53:02.103
+!MESSAGE Indexed 'BitstreamLoader_bsp' (81 sources, 151 headers) in 3.00 sec: 4,979 declarations; 7,505 references; 16 unresolved inclusions; 4 syntax errors; 66 unresolved names (0.53%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-12 10:53:02.894
+!MESSAGE Indexed 'BitstreamLoader' (1 sources, 19 headers) in 0.10 sec: 910 declarations; 1,231 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:37:59.274
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:38:00.528
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:46:41.030
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:46:42.563
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:48:21.683
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:48:22.870
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:49:18.500
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 15:49:19.753
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:56:39.305
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:56:41.000
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:57:45.367
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:57:46.705
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:59:26.011
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:59:26.141
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:59:27.564
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:59:54.022
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:59:54.085
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 16:59:55.405
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:00:37.354
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:00:37.419
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:00:38.895
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:50:23.404
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:50:25.062
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:54:07.280
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:54:07.402
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 17:54:08.947
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:14:46.580
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:14:48.015
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:15:44.630
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:15:44.698
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:15:46.250
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:17:10.479
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:17:10.860
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:17:12.215
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:45:06.029
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 18:45:07.338
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:00:29.664
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:00:30.939
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:04:38.896
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:04:38.976
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:04:40.234
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:19:17.418
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:19:18.768
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:20:09.866
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:20:09.935
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:20:11.180
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:21:54.205
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:21:54.279
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 19:21:55.526
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:06:39.671
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:06:41.035
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:07:27.052
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:07:28.314
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:09:56.270
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:09:56.406
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:09:57.653
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:11:48.777
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:11:48.895
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:11:50.112
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:13:01.599
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:13:01.685
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:13:02.940
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:13:23.400
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:13:23.460
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:13:24.716
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:14:03.015
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:14:03.090
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:14:04.332
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:14:28.865
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:14:28.949
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:14:30.186
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:15:03.829
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:15:03.929
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:15:05.130
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:20:36.541
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:20:36.625
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:20:37.865
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:21:01.473
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:21:01.608
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:21:02.815
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:21:25.131
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:21:25.259
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:21:26.518
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:22:06.592
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:22:06.691
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:22:07.895
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:22:50.797
+!MESSAGE Terminated Launch with connection: 10USB-BlasterII on localhost [2-1.6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:22:50.946
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:22:52.152
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:43:58.879
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:44:00.129
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:57:21.292
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 20:57:22.492
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 21:16:13.137
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 21:16:14.386
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 21:25:07.897
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 21:25:09.097
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 21:41:49.230
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 21:41:50.415
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 22:24:06.221
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 22:24:07.412
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 22:44:19.569
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 22:44:20.772
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 23:04:58.303
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 23:04:59.517
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 23:16:11.600
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-05-12 23:16:12.788
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-BlasterII on localhost [2-1.6]' --device=1 --instance=0 --go /home/perina/Projetos/SSC5883/T1/NovaCORE/Quartus/2x2/software/BitstreamLoader/BitstreamLoader.elf]
+!SESSION 2017-03-31 13:20:00.588 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/perina/altera/14.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/perina/altera/14.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 4 567 2017-03-31 13:20:21.176
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-03-31 13:20:21.176
+!MESSAGE Could not read metadata for 'BitstreamLoader'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'BitstreamLoader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-03-31 13:20:21.177
+!MESSAGE The project description file (.project) for 'BitstreamLoader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-03-31 13:20:21.177
+!MESSAGE Could not read metadata for 'BitstreamLoader_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'BitstreamLoader_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-03-31 13:20:21.178
+!MESSAGE The project description file (.project) for 'BitstreamLoader_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 2 0 2017-03-31 13:20:21.936
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-31 13:20:21.936
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-03-31 13:20:22.348
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-31 13:20:22.348
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.rse.core 4 0 2017-03-31 13:20:29.354
+!MESSAGE Unexpected Exception
+!STACK 0
+java.net.UnknownHostException: daenerys: daenerys: unknown error
+	at java.net.InetAddress.getLocalHost(Unknown Source)
+	at org.eclipse.rse.core.RSECorePlugin.getLocalMachineName(RSECorePlugin.java:265)
+	at org.eclipse.rse.core.RSEPreferencesManager.getDefaultPrivateSystemProfileName(RSEPreferencesManager.java:358)
+	at org.eclipse.rse.core.RSEPreferencesManager.initDefaults(RSEPreferencesManager.java:337)
+	at org.eclipse.rse.internal.core.RSEPreferenceInitializer.initializeDefaultPreferences(RSEPreferenceInitializer.java:23)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper$1.run(PreferenceServiceRegistryHelper.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.runInitializer(PreferenceServiceRegistryHelper.java:303)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.applyRuntimeDefaults(PreferenceServiceRegistryHelper.java:131)
+	at org.eclipse.core.internal.preferences.PreferencesService.applyRuntimeDefaults(PreferencesService.java:368)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.applyRuntimeDefaults(DefaultPreferences.java:221)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.load(DefaultPreferences.java:274)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.node(DefaultPreferences.java:147)
+	at org.eclipse.core.internal.preferences.legacy.PreferenceForwarder.getDefaultPreferences(PreferenceForwarder.java:130)
+	at org.eclipse.core.internal.preferences.legacy.PreferenceForwarder.getInt(PreferenceForwarder.java:469)
+	at org.eclipse.rse.logging.Logger.initialize(Logger.java:249)
+	at org.eclipse.rse.logging.Logger.<init>(Logger.java:135)
+	at org.eclipse.rse.logging.LoggerFactory.getLogger(LoggerFactory.java:45)
+	at org.eclipse.rse.core.RSECorePlugin.getLogger(RSECorePlugin.java:392)
+	at org.eclipse.rse.internal.core.RSEInitJob.<init>(RSEInitJob.java:130)
+	at org.eclipse.rse.internal.core.RSEInitJob.<clinit>(RSEInitJob.java:62)
+	at org.eclipse.rse.core.RSECorePlugin.waitForInitCompletion(RSECorePlugin.java:142)
+	at org.eclipse.rse.internal.ui.RSEUIInitJob.run(RSEUIInitJob.java:32)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.net.UnknownHostException: daenerys: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	... 26 more
+
+!ENTRY org.eclipse.core.resources 4 567 2017-03-31 13:20:37.739
+!MESSAGE The project description file (.project) for 'BitstreamLoader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-31 13:21:39.972
+!MESSAGE Indexed 'BitstreamLoader' (1 sources, 25 headers) in 1.83 sec: 924 declarations; 1,461 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-31 13:21:44.036
+!MESSAGE Indexed 'BitstreamLoader_bsp' (81 sources, 156 headers) in 3.96 sec: 5,017 declarations; 7,673 references; 0 unresolved inclusions; 3 syntax errors; 8 unresolved names (0.06%)
+
+!ENTRY com.altera.sbtgui.core 4 0 2017-03-31 13:21:47.162
+!MESSAGE Error executing 'nios2-bsp-generate-files --bsp-dir . --settings settings.bsp', unexpected return code 1.
+
+Error message:
+
+/bin/bash: line 0: cd: too many arguments
+SEVERE: Paths cannot contain spaces: "--bsp-dir /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/software/BitstreamLoader_bsp"
+SEVERE: Paths cannot contain spaces: "--bsp-dir /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/software/BitstreamLoader_bsp"
+SEVERE: nios2-bsp-generate-files failed.
+
+!SESSION 2017-03-31 13:26:22.366 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/perina/altera/14.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/perina/altera/14.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 4 567 2017-03-31 13:26:26.472
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-03-31 13:26:26.472
+!MESSAGE Could not read metadata for 'BitstreamLoader'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'BitstreamLoader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-03-31 13:26:26.475
+!MESSAGE The project description file (.project) for 'BitstreamLoader' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-03-31 13:26:26.475
+!MESSAGE Could not read metadata for 'BitstreamLoader_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'BitstreamLoader_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1530)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-03-31 13:26:26.476
+!MESSAGE The project description file (.project) for 'BitstreamLoader_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 2 0 2017-03-31 13:26:27.025
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-31 13:26:27.025
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-03-31 13:26:27.424
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-31 13:26:27.425
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.rse.core 4 0 2017-03-31 13:26:31.270
+!MESSAGE Unexpected Exception
+!STACK 0
+java.net.UnknownHostException: daenerys: daenerys: unknown error
+	at java.net.InetAddress.getLocalHost(Unknown Source)
+	at org.eclipse.rse.core.RSECorePlugin.getLocalMachineName(RSECorePlugin.java:265)
+	at org.eclipse.rse.core.RSEPreferencesManager.getDefaultPrivateSystemProfileName(RSEPreferencesManager.java:358)
+	at org.eclipse.rse.core.RSEPreferencesManager.initDefaults(RSEPreferencesManager.java:337)
+	at org.eclipse.rse.internal.core.RSEPreferenceInitializer.initializeDefaultPreferences(RSEPreferenceInitializer.java:23)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper$1.run(PreferenceServiceRegistryHelper.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.runInitializer(PreferenceServiceRegistryHelper.java:303)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.applyRuntimeDefaults(PreferenceServiceRegistryHelper.java:131)
+	at org.eclipse.core.internal.preferences.PreferencesService.applyRuntimeDefaults(PreferencesService.java:368)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.applyRuntimeDefaults(DefaultPreferences.java:221)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.load(DefaultPreferences.java:274)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.node(DefaultPreferences.java:147)
+	at org.eclipse.core.internal.preferences.legacy.PreferenceForwarder.getDefaultPreferences(PreferenceForwarder.java:130)
+	at org.eclipse.core.internal.preferences.legacy.PreferenceForwarder.getInt(PreferenceForwarder.java:469)
+	at org.eclipse.rse.logging.Logger.initialize(Logger.java:249)
+	at org.eclipse.rse.logging.Logger.<init>(Logger.java:135)
+	at org.eclipse.rse.logging.LoggerFactory.getLogger(LoggerFactory.java:45)
+	at org.eclipse.rse.core.RSECorePlugin.getLogger(RSECorePlugin.java:392)
+	at org.eclipse.rse.internal.core.RSEInitJob.<init>(RSEInitJob.java:130)
+	at org.eclipse.rse.internal.core.RSEInitJob.<clinit>(RSEInitJob.java:62)
+	at org.eclipse.rse.core.RSECorePlugin.waitForInitCompletion(RSECorePlugin.java:142)
+	at org.eclipse.rse.internal.ui.RSEUIInitJob.run(RSEUIInitJob.java:32)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.net.UnknownHostException: daenerys: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	... 26 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-31 13:26:47.095
+!MESSAGE Indexed 'BitstreamLoader' (1 sources, 25 headers) in 1.45 sec: 924 declarations; 1,457 references; 0 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-31 13:26:50.131
+!MESSAGE Indexed 'BitstreamLoader_bsp' (81 sources, 156 headers) in 2.96 sec: 5,017 declarations; 7,673 references; 0 unresolved inclusions; 3 syntax errors; 8 unresolved names (0.06%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-31 13:28:01.466
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-2]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-31 13:28:02.630
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-31 13:28:02.674
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-2]' --device=1 --instance=0 --go --accept-bad-sysid /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2_WORKINGGGGGGGG/software/BitstreamLoader/BitstreamLoader.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-31 13:31:51.263
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [2-2]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-31 13:31:51.590
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-2]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-03-31 13:31:52.648
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [2-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-03-31 13:31:52.806
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [2-2]' --device=1 --instance=0 --go --accept-bad-sysid /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2_WORKINGGGGGGGG/software/BitstreamLoader/BitstreamLoader.elf]

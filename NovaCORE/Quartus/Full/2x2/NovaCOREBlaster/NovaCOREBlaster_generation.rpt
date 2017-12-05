@@ -1,0 +1,139 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory="/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG" --output-directory="/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster" --report-file="bsf:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/NovaCOREBlaster.bsf" --system-info=DEVICE_FAMILY="Stratix IV" --system-info=DEVICE=EP4SGX230KF40C2ES --system-info=DEVICE_SPEEDGRADE=2 --component-file="/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster.qsys" --remove-qsys-generate-warning
+Progress: Loading 2x2 WORKINGGGGGGGG/NovaCOREBlaster.qsys
+Progress: Reading input file
+Progress: Adding bitstream_memory [altera_avalon_onchip_memory2 14.1]
+Progress: Parameterizing module bitstream_memory
+Progress: Adding clk_50 [clock_source 14.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 14.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios2_gen2 [altera_nios2_gen2 14.1]
+Progress: Parameterizing module nios2_gen2
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 14.1]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding pio_c_bus [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_bus
+Progress: Adding pio_c_clk [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_clk
+Progress: Adding pio_c_dimension [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_dimension
+Progress: Adding pio_c_dimswitch [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_dimswitch
+Progress: Adding pio_c_uid [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_uid
+Progress: Adding pio_mode [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_mode
+Progress: Adding timer [altera_avalon_timer 14.1]
+Progress: Parameterizing module timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory="/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG" --output-directory="/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis" --file-set=QUARTUS_SYNTH --report-file="html:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/NovaCOREBlaster.html" --report-file="sopcinfo:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster.sopcinfo" --report-file="cmp:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/NovaCOREBlaster.cmp" --report-file="qip:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/NovaCOREBlaster.qip" --report-file="svd:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/NovaCOREBlaster.svd" --report-file="regmap:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/NovaCOREBlaster.regmap" --report-file="xml:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/NovaCOREBlaster.xml" --report-file="debuginfo:/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/NovaCOREBlaster.debuginfo" --system-info=DEVICE_FAMILY="Stratix IV" --system-info=DEVICE=EP4SGX230KF40C2ES --system-info=DEVICE_SPEEDGRADE=2 --component-file="/home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster.qsys" --remove-qsys-generate-warning --language=VERILOG
+Progress: Loading 2x2 WORKINGGGGGGGG/NovaCOREBlaster.qsys
+Progress: Reading input file
+Progress: Adding bitstream_memory [altera_avalon_onchip_memory2 14.1]
+Progress: Parameterizing module bitstream_memory
+Progress: Adding clk_50 [clock_source 14.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 14.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios2_gen2 [altera_nios2_gen2 14.1]
+Progress: Parameterizing module nios2_gen2
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 14.1]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding pio_c_bus [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_bus
+Progress: Adding pio_c_clk [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_clk
+Progress: Adding pio_c_dimension [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_dimension
+Progress: Adding pio_c_dimswitch [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_dimswitch
+Progress: Adding pio_c_uid [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_c_uid
+Progress: Adding pio_mode [altera_avalon_pio 14.1]
+Progress: Parameterizing module pio_mode
+Progress: Adding timer [altera_avalon_timer 14.1]
+Progress: Parameterizing module timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: NovaCOREBlaster: Generating NovaCOREBlaster "NovaCOREBlaster" for QUARTUS_SYNTH
+Info: bitstream_memory: Starting RTL generation for module 'NovaCOREBlaster_bitstream_memory'
+Info: bitstream_memory:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=NovaCOREBlaster_bitstream_memory --dir=/tmp/alt7256_694770825730532997.dir/0001_bitstream_memory_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0001_bitstream_memory_gen//NovaCOREBlaster_bitstream_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: bitstream_memory: Done RTL generation for module 'NovaCOREBlaster_bitstream_memory'
+Info: bitstream_memory: "NovaCOREBlaster" instantiated altera_avalon_onchip_memory2 "bitstream_memory"
+Info: jtag_uart: Starting RTL generation for module 'NovaCOREBlaster_jtag_uart'
+Info: jtag_uart:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=NovaCOREBlaster_jtag_uart --dir=/tmp/alt7256_694770825730532997.dir/0002_jtag_uart_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0002_jtag_uart_gen//NovaCOREBlaster_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'NovaCOREBlaster_jtag_uart'
+Info: jtag_uart: "NovaCOREBlaster" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: nios2_gen2: "NovaCOREBlaster" instantiated altera_nios2_gen2 "nios2_gen2"
+Info: onchip_memory2: Starting RTL generation for module 'NovaCOREBlaster_onchip_memory2'
+Info: onchip_memory2:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=NovaCOREBlaster_onchip_memory2 --dir=/tmp/alt7256_694770825730532997.dir/0003_onchip_memory2_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0003_onchip_memory2_gen//NovaCOREBlaster_onchip_memory2_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2: Done RTL generation for module 'NovaCOREBlaster_onchip_memory2'
+Info: onchip_memory2: "NovaCOREBlaster" instantiated altera_avalon_onchip_memory2 "onchip_memory2"
+Info: pio_c_bus: Starting RTL generation for module 'NovaCOREBlaster_pio_c_bus'
+Info: pio_c_bus:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=NovaCOREBlaster_pio_c_bus --dir=/tmp/alt7256_694770825730532997.dir/0004_pio_c_bus_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0004_pio_c_bus_gen//NovaCOREBlaster_pio_c_bus_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_c_bus: Done RTL generation for module 'NovaCOREBlaster_pio_c_bus'
+Info: pio_c_bus: "NovaCOREBlaster" instantiated altera_avalon_pio "pio_c_bus"
+Info: pio_c_clk: Starting RTL generation for module 'NovaCOREBlaster_pio_c_clk'
+Info: pio_c_clk:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=NovaCOREBlaster_pio_c_clk --dir=/tmp/alt7256_694770825730532997.dir/0005_pio_c_clk_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0005_pio_c_clk_gen//NovaCOREBlaster_pio_c_clk_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_c_clk: Done RTL generation for module 'NovaCOREBlaster_pio_c_clk'
+Info: pio_c_clk: "NovaCOREBlaster" instantiated altera_avalon_pio "pio_c_clk"
+Info: pio_c_dimension: Starting RTL generation for module 'NovaCOREBlaster_pio_c_dimension'
+Info: pio_c_dimension:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=NovaCOREBlaster_pio_c_dimension --dir=/tmp/alt7256_694770825730532997.dir/0006_pio_c_dimension_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0006_pio_c_dimension_gen//NovaCOREBlaster_pio_c_dimension_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_c_dimension: Done RTL generation for module 'NovaCOREBlaster_pio_c_dimension'
+Info: pio_c_dimension: "NovaCOREBlaster" instantiated altera_avalon_pio "pio_c_dimension"
+Info: pio_mode: Starting RTL generation for module 'NovaCOREBlaster_pio_mode'
+Info: pio_mode:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=NovaCOREBlaster_pio_mode --dir=/tmp/alt7256_694770825730532997.dir/0007_pio_mode_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0007_pio_mode_gen//NovaCOREBlaster_pio_mode_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_mode: Done RTL generation for module 'NovaCOREBlaster_pio_mode'
+Info: pio_mode: "NovaCOREBlaster" instantiated altera_avalon_pio "pio_mode"
+Info: timer: Starting RTL generation for module 'NovaCOREBlaster_timer'
+Info: timer:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64//perl/bin/perl -I /home/perina/altera/14.1/quartus/linux64//perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /home/perina/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=NovaCOREBlaster_timer --dir=/tmp/alt7256_694770825730532997.dir/0008_timer_gen/ --quartus_dir=/home/perina/altera/14.1/quartus --verilog --config=/tmp/alt7256_694770825730532997.dir/0008_timer_gen//NovaCOREBlaster_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: timer: Done RTL generation for module 'NovaCOREBlaster_timer'
+Info: timer: "NovaCOREBlaster" instantiated altera_avalon_timer "timer"
+Info: mm_interconnect_0: "NovaCOREBlaster" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "NovaCOREBlaster" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "NovaCOREBlaster" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'NovaCOREBlaster_nios2_gen2_cpu'
+Info: cpu:   Generation command is [exec /home/perina/altera/14.1/quartus/linux64/eperlcmd -I /home/perina/altera/14.1/quartus/linux64/perl/lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin/europa -I /home/perina/altera/14.1/quartus/sopc_builder/bin/perl_lib -I /home/perina/altera/14.1/quartus/sopc_builder/bin -I /home/perina/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/perina/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/perina/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/perina/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/perina/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=NovaCOREBlaster_nios2_gen2_cpu --dir=/tmp/alt7256_694770825730532997.dir/0011_cpu_gen/ --quartus_bindir=/home/perina/altera/14.1/quartus/linux64 --verilog --config=/tmp/alt7256_694770825730532997.dir/0011_cpu_gen//NovaCOREBlaster_nios2_gen2_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.03.31 13:08:52 (*) Starting Nios II generation
+Info: cpu: # 2017.03.31 13:08:52 (*)   Checking for plaintext license.
+Info: cpu: # 2017.03.31 13:08:54 (*)   Plaintext license not found.
+Info: cpu: # 2017.03.31 13:08:54 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2017.03.31 13:08:54 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.03.31 13:08:54 (*)   Creating all objects for CPU
+Info: cpu: # 2017.03.31 13:08:55 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.03.31 13:08:55 (*)   Creating plain-text RTL
+Info: cpu: # 2017.03.31 13:08:56 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'NovaCOREBlaster_nios2_gen2_cpu'
+Info: cpu: "nios2_gen2" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios2_gen2_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/perina/Desktop/NovaCORE_new_tests/NovaCORE/NovaCORE/Quartus/Full/2x2 WORKINGGGGGGGG/NovaCOREBlaster/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: NovaCOREBlaster: Done "NovaCOREBlaster" with 30 modules, 44 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

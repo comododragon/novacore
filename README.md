@@ -115,12 +115,13 @@ NOTE: LUT_WIDTH and DIMENSION are Verilog parameters.
 
 A CB is composed of blocks, CLB_IN_WIDTH blocks for CB -> CLB junctions and CLB_OUT_WIDTH blocks for
 CLB -> CB junctions. Each junction may be connected to one of the vertical interconnect channels,
-CH_UP_WIDTH channels goind upwards and CH_DN_WIDTH channels goind downwards. Di defines how block BLK
+CH_UP_WIDTH channels going upwards and CH_DN_WIDTH channels going downwards. Di defines how block BLK
 should be connected on dimension i. The values of Di have different behaviours for each type of junction:
 
 - CB -> CLB junction: Bit i defines if the junction should be connected to the i-th channel, from right
 	to left. More than one bit may be 1.
-- CLB -> CB junction: If number i is set, the junction is connected to the i-th channel, from right to left.
+- CLB -> CB junction: If number i is set, the junction is connected to the i-th channel, from right to
+	left.
 
 Refer to Figure 5 on the article for an example of CB configuration.
 
@@ -133,8 +134,8 @@ NOTE: CLB_IN_WIDTH, CLB_OUT_WIDTH, CH_UP_WIDTH and CH_DN_WIDTH are Verilog param
 | UID | MUX | Dn-1 | ... | D2 | D1 | D0 |
 
 A SB is composed of 2 * (CH_UP_WIDTH + CH_DN_WIDTH) multiplexers, each with 2 * (CH_UP_WIDTH + CH_DN_WIDTH)
-inputs. The value in Di defines to which input the multiplexer MUX is connected on dimension i. Refer to the
-Verilog file SB.v for how multiplexers and inputs are numbered.
+inputs. The value in Di defines to which input the multiplexer MUX is connected on dimension i. Refer to
+the Verilog file SB.v for how multiplexers and inputs are numbered.
 
 NOTE: CH_UP_WIDTH, CH_DN_WIDTH are Verilog parameters.
 ```
@@ -163,7 +164,7 @@ NOTE: CH_UP_WIDTH, CH_DN_WIDTH are Verilog parameters.
 		* ***SBox_tb.v***: Testbench for the SB Verilog module;
 	* ***Makefile***
 * ***NovaCORE***: The vFPGA;
-	* ***Verilog/scr***
+	* ***Verilog/src***
 		* ***NovaCORE.v***: The virtual FPGA Verilog module;
 	* ***Utils***
 		* ***tof2mif.sh***: TOF (Text Object File) to MIF (Memory Initialisation File) converter script;

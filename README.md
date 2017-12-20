@@ -22,9 +22,9 @@ The NovaCORE is composed mainly of three modules:
 * ***CB***: Connection box, used to connect the CLBs to the interconnect network;
 * ***SB***: Switch box, used to interconnect vertical and horizontal channels of the interconnect network.
 
-Further information about the architecture and its features may be found in this article:
+Further information about the architecture and its features may be found in this article (portuguese):
 
-* SOON!
+* http://www.fsma.edu.br/si/edicao20/FSMA_SI_2017_2_Principal_5.html
 
 ## Simulating the modules
 
